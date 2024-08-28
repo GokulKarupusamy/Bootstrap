@@ -1,0 +1,30 @@
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Bootstrap Encounter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <!-- Containers always starts the screen width from smaller and goes to larger when t reaches the breakpoint it adjusts the screen widths accordingly -->
+  <body>
+    <!-- It acts according to the max-width of the page Normally -->
+    <div class="container my-5">        <!-- The my stands for margin in y axis with the padding value -->
+      <h1>Normal container</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, numquam. Accusantium voluptatibus eos harum quas ullam neque sequi, voluptas dignissimos quae ad in, fugit maxime quasi aspernatur sit, quidem illum?</p>
+    </div>
+    <!-- Always 100% width even when it reaches every breakpoint it remains 100 percent width  -->
+    <div class="container-fluid">
+      <h2>Fluid container</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus tempore sequi ipsa. Expedita quaerat ducimus totam, necessitatibus consequatur maxime quia, nostrum consectetur quidem nemo eius iste labore aspernatur itaque.</p>
+    </div>
+    <div class="container-lg my5">    <!--Here the container remains 100percent until it reaches the breakpoint lg and the it adjusts according to the page -->
+      <h2>Another example of container</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dolorum reiciendis sunt ullam accusantium beatae tenetur, voluptas quibusdam maxime alias doloribus eius sint distinctio at et cum. Iste, qui eaque.</p>
+    </div>
+    <!-- The above stated "container-lg" is a standard example other br points can also be used this way  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
